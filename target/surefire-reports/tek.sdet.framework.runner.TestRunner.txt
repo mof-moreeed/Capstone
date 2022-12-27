@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: tek.sdet.framework.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.489 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
+Retail Account Page.Verify User can add a payment method  Time elapsed: 18.293 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User click on Add a payment method link' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User click on Add a payment method link")
+public void userClickOnAddAPaymentMethodLink() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User fill Debit or credit card information")
+public void userFillDebitOrCreditCardInformation(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When("User click on Add your card button")
+public void userClickOnAddYourCardButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("a message should be displayed ‘Payment Method added successfully’")
+public void aMessageShouldBeDisplayedPaymentMethodAddedSuccessfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
